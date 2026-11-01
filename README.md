@@ -5,7 +5,7 @@
 Yönetici, departman yöneticisi ve çalışan rollerine göre farklı yetkiler ve arayüzler sunan bu proje, modern web teknolojileri kullanılarak geliştirilmiş bir MVP (Minimum Viable Product) çalışmasıdır.
 
 <p align="center">
-  <img src="docs/screenshots/01-login.png" alt="DevFlow giriş ekranı" width="100%">
+  <img src="docs/screenshots/Giri%C5%9F.jpeg" alt="DevFlow giriş ekranı" width="100%">
 </p>
 
 ## Özellikler
@@ -34,32 +34,32 @@ DevFlow, yönetici ve çalışan kullanıcıları için farklı ekranlar sunar.
 
 Toplam çalışan, aktif proje, toplam görev ve tamamlanma oranı gibi özet bilgilerin yanı sıra durum dağılımı, projelere göre görevler ve yaklaşan teslimler grafikleri yer alır.
 
-![Yönetici - Genel Bakış](docs/screenshots/02-admin-dashboard.png)
+![Yönetici - Genel Bakış](docs/screenshots/Y%C3%B6neticiPanel.jpeg)
 
-![Yönetici - Grafikler](docs/screenshots/03-admin-dashboard-charts.png)
+![Yönetici - Grafikler](docs/screenshots/Y%C3%B6neticiPanel2.jpeg)
 
 #### Kanban Görev Yönetimi
 
 Görev kartları sürüklenip bırakılarak veya açılır menüden durum değiştirilerek (Yapılacak, Devam ediyor, Kontrolde, Tamamlandı) güncellenebilir.
 
-![Yönetici - Görevler (Kanban)](docs/screenshots/04-admin-tasks-kanban.png)
+![Yönetici - Görevler (Kanban)](docs/screenshots/G%C3%B6revler.jpeg)
 
 #### Projeler
 
 Projelerin durumu, ilerleme yüzdesi ve tamamlanan görev sayısı kartlar üzerinden takip edilir.
 
-![Yönetici - Projeler](docs/screenshots/05-admin-projects.png)
+![Yönetici - Projeler](docs/screenshots/Projeler.jpeg)
 
 #### Çalışanlar ve Departmanlar
 
 <table>
   <tr>
     <td width="50%">
-      <img src="docs/screenshots/06-admin-employees.png" alt="Yönetici - Çalışanlar">
+      <img src="docs/screenshots/%C3%87al%C4%B1%C5%9Fanlar.jpeg" alt="Yönetici - Çalışanlar">
       <p align="center"><b>Çalışanlar</b></p>
     </td>
     <td width="50%">
-      <img src="docs/screenshots/07-admin-departments.png" alt="Yönetici - Departmanlar">
+      <img src="docs/screenshots/Departmanlar.jpeg" alt="Yönetici - Departmanlar">
       <p align="center"><b>Departmanlar</b></p>
     </td>
   </tr>
@@ -69,22 +69,24 @@ Projelerin durumu, ilerleme yüzdesi ve tamamlanan görev sayısı kartlar üzer
 
 Sistemde gerçekleşen son işlemler (görev oluşturma, atama, güncelleme, tamamlama vb.) zaman bilgisiyle listelenir.
 
-![Yönetici - Aktivite Geçmişi](docs/screenshots/08-admin-activity.png)
+![Yönetici - Aktivite Geçmişi](docs/screenshots/Aktivite.jpeg)
 
 ### Çalışan Paneli
 
 Çalışanlar yalnızca kendilerine atanan görevleri ve ilgili projeleri görür.
 
-![Çalışan - Genel Bakış](docs/screenshots/09-employee-dashboard.png)
+![Çalışan - Genel Bakış](docs/screenshots/%C3%87al%C4%B1%C5%9FanPanel.jpeg)
+
+![Çalışan - Grafikler](docs/screenshots/%C3%87al%C4%B1%C5%9FanPanel2.jpeg)
 
 <table>
   <tr>
     <td width="50%">
-      <img src="docs/screenshots/10-employee-tasks.png" alt="Çalışan - Görevler">
+      <img src="docs/screenshots/G%C3%B6revler%C3%87al%C4%B1%C5%9Fan.jpeg" alt="Çalışan - Görevler">
       <p align="center"><b>Görevlerim</b></p>
     </td>
     <td width="50%">
-      <img src="docs/screenshots/11-employee-projects.png" alt="Çalışan - Projeler">
+      <img src="docs/screenshots/Projeler%C3%87al%C4%B1%C5%9Fan.jpeg" alt="Çalışan - Projeler">
       <p align="center"><b>Projeler</b></p>
     </td>
   </tr>
@@ -121,11 +123,9 @@ Projeyi çalıştırmadan önce aşağıdaki araçların kurulu olması gerekir:
 Terminal veya PowerShell açarak aşağıdaki komutları çalıştırın:
 
 ```bash
-git clone https://github.com/KULLANICI-ADINIZ/DevFlow_MVP.git
+git clone https://github.com/Umut-Erdon/DevFlow_MVP.git
 cd DevFlow_MVP
 ```
-
-> `KULLANICI-ADINIZ/DevFlow_MVP` bölümünü kendi GitHub kullanıcı adınız ve repository adınızla değiştirin.
 
 ### 2. Veritabanı bağlantısını yapılandırın
 
