@@ -4,6 +4,10 @@
 
 Yönetici, departman yöneticisi ve çalışan rollerine göre farklı yetkiler ve arayüzler sunan bu proje, modern web teknolojileri kullanılarak geliştirilmiş bir MVP (Minimum Viable Product) çalışmasıdır.
 
+<p align="center">
+  <img src="docs/screenshots/01-login.png" alt="DevFlow giriş ekranı" width="100%">
+</p>
+
 ## Özellikler
 
 - Rol bazlı kullanıcı yönetimi (Admin, Department Manager, Employee)
@@ -19,6 +23,72 @@ Yönetici, departman yöneticisi ve çalışan rollerine göre farklı yetkiler 
 - Kullanıcı aktivite kayıtları
 - Yönetici ve çalışanlara özel paneller
 - Grafik ve veri görselleştirme
+
+## Uygulama Ekranları
+
+DevFlow, yönetici ve çalışan kullanıcıları için farklı ekranlar sunar.
+
+### Yönetici Paneli
+
+#### Genel Bakış
+
+Toplam çalışan, aktif proje, toplam görev ve tamamlanma oranı gibi özet bilgilerin yanı sıra durum dağılımı, projelere göre görevler ve yaklaşan teslimler grafikleri yer alır.
+
+![Yönetici - Genel Bakış](docs/screenshots/02-admin-dashboard.png)
+
+![Yönetici - Grafikler](docs/screenshots/03-admin-dashboard-charts.png)
+
+#### Kanban Görev Yönetimi
+
+Görev kartları sürüklenip bırakılarak veya açılır menüden durum değiştirilerek (Yapılacak, Devam ediyor, Kontrolde, Tamamlandı) güncellenebilir.
+
+![Yönetici - Görevler (Kanban)](docs/screenshots/04-admin-tasks-kanban.png)
+
+#### Projeler
+
+Projelerin durumu, ilerleme yüzdesi ve tamamlanan görev sayısı kartlar üzerinden takip edilir.
+
+![Yönetici - Projeler](docs/screenshots/05-admin-projects.png)
+
+#### Çalışanlar ve Departmanlar
+
+<table>
+  <tr>
+    <td width="50%">
+      <img src="docs/screenshots/06-admin-employees.png" alt="Yönetici - Çalışanlar">
+      <p align="center"><b>Çalışanlar</b></p>
+    </td>
+    <td width="50%">
+      <img src="docs/screenshots/07-admin-departments.png" alt="Yönetici - Departmanlar">
+      <p align="center"><b>Departmanlar</b></p>
+    </td>
+  </tr>
+</table>
+
+#### Aktivite Geçmişi
+
+Sistemde gerçekleşen son işlemler (görev oluşturma, atama, güncelleme, tamamlama vb.) zaman bilgisiyle listelenir.
+
+![Yönetici - Aktivite Geçmişi](docs/screenshots/08-admin-activity.png)
+
+### Çalışan Paneli
+
+Çalışanlar yalnızca kendilerine atanan görevleri ve ilgili projeleri görür.
+
+![Çalışan - Genel Bakış](docs/screenshots/09-employee-dashboard.png)
+
+<table>
+  <tr>
+    <td width="50%">
+      <img src="docs/screenshots/10-employee-tasks.png" alt="Çalışan - Görevler">
+      <p align="center"><b>Görevlerim</b></p>
+    </td>
+    <td width="50%">
+      <img src="docs/screenshots/11-employee-projects.png" alt="Çalışan - Projeler">
+      <p align="center"><b>Projeler</b></p>
+    </td>
+  </tr>
+</table>
 
 ## Kullanılan Teknolojiler
 
@@ -198,16 +268,11 @@ DevFlow_MVP/
 │   ├── package.json
 │   └── vite.config.js
 │
+├── docs/
+│   └── screenshots/
+│
 └── README.md
 ```
-
-## Uygulama Ekranları
-
-DevFlow, yönetici ve çalışan kullanıcıları için farklı ekranlar sunar.
-
-Ekran görüntüleri ve uygulamanın arayüz detayları bu bölümde paylaşılabilir.
-
-<!-- Ekran görüntüleri eklenecek -->
 
 ## Güvenlik ve Geliştirme Notları
 
